@@ -1,0 +1,41 @@
+s1: 
+s2: Hello, World!
+s3: Hello, World!
+*** += operator tests ***
+s1 length: 0
+s1: A
+s1 length: 1
+s1: AB
+s1 length: 2
+s1: ABC
+s1 length: 3
+*** [] operator test ***
+s1[0]: A
+s1[1]: B
+s1[2]: C
+*** = operator test ***
+s2: = Test 1 Success
+s2: = Test 2 Success
+*** logical operator tests ***
+A == A: true
+A == B: false
+A != A: false
+A != B: true
+A > A: false
+A > B: false
+B > A: true
+A >= A: true
+A >= B: false
+B >= A: true
+A < A: false
+A < B: true
+B < A: false
+A <= A: true
+A <= B: true
+B <= A: false
+*** + operator tests ***
+A + B: AB
+A + C: AC
+B + A: BA
+*** >> operator test ***
+Please enter a word: 
